@@ -1,0 +1,65 @@
+%YAML 1.3
+---
+- Key: [Forward Button, pressed]
+- KeyPress:
+  - [Control_L, c]
+  - click
+...
+---
+- Key: [Back Button, pressed]
+- KeyPress:
+  - [Control_L, v]
+  - click
+...
+---
+- Key: [Middle Button, pressed]
+- KeyPress:
+  - Super_L
+  - click
+...
+---
+- Key: [Smart Shift, pressed]
+- KeyPress:
+  - [Alt_L, Control_L, Shift_L, p]
+  - click
+...
+---
+- Rule:
+  - MouseGesture: Mouse Up
+  - KeyPress:
+    - [Shift_L, F4]
+    - click
+- Rule:
+  - MouseGesture: Mouse Right
+  - KeyPress:
+    - [Control_L, Alt_L, Right]
+    - click
+- Rule:
+  - MouseGesture: Mouse Down
+  - KeyPress:
+    - [function, Print]
+    - click
+- Rule:
+  - MouseGesture: Mouse Down-left
+  - KeyPress:
+    - [Alt_L, F12]
+    - click
+- Rule:
+  - MouseGesture: Mouse Left
+  - KeyPress:
+    - [Control_L, Alt_L, Left]
+    - click
+...
+---
+- Test: [thumb_wheel_down, 15]
+- KeyPress:
+  - [Alt_L, Left]
+  - click
+...
+---
+- Test: [thumb_wheel_up, 15]
+- KeyPress:
+  - [Alt_L, Right]
+  - click
+...
+
