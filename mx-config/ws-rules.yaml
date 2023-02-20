@@ -13,14 +13,12 @@
 ...
 ---
 - Key: [Middle Button, pressed]
-- KeyPress:
-  - Super_L
-  - click
+- Execute: [xdotool, mousemove, '960', '540', click, '1']
 ...
 ---
 - Key: [Smart Shift, pressed]
 - KeyPress:
-  - [Alt_L, Control_L, Shift_L, p]
+  - [Print]
   - click
 ...
 ---
@@ -40,14 +38,14 @@
     - [function, Print]
     - click
 - Rule:
-  - MouseGesture: Mouse Down-left
-  - KeyPress:
-    - [Alt_L, F12]
-    - click
-- Rule:
   - MouseGesture: Mouse Left
   - KeyPress:
     - [Control_L, Alt_L, Left]
+    - click
+- Rule:
+  - MouseGesture: Mouse Up-right
+  - KeyPress:
+    - [Super_L]
     - click
 ...
 ---

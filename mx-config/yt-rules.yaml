@@ -13,9 +13,7 @@
 ...
 ---
 - Key: [Middle Button, pressed]
-- KeyPress:
-  - Super_L
-  - click
+- Execute: [xdotool, mousemove, '960', '540', click, '1']
 ...
 ---
 - Key: [Smart Shift, pressed]
@@ -37,13 +35,18 @@
 - Rule:
   - MouseGesture: Mouse Down
   - KeyPress:
-    - [function, Print]
+    - [Control_L, w]
     - click
 - Rule:
   - MouseGesture: Mouse Left
   - KeyPress:
     - [Control_L, Alt_L, Left]
     - click
+- Rule:
+  - MouseGesture: Mouse Up-right
+  - KeyPress:
+    - [Super_L]
+    - click    
 ...
 ---
 - Test: [thumb_wheel_up, 20]

@@ -2,13 +2,13 @@
 ---
 - Key: [Forward Button, pressed]
 - KeyPress:
-  - [Control_L, c]
+  - [Shift_L, n]
   - click
 ...
 ---
 - Key: [Back Button, pressed]
 - KeyPress:
-  - [Control_L, v]
+  - [f]
   - click
 ...
 ---
@@ -18,7 +18,7 @@
 ---
 - Key: [Smart Shift, pressed]
 - KeyPress:
-  - [Control_L, Shift_L, m]
+  - [space]
   - click
 ...
 ---
@@ -35,7 +35,7 @@
 - Rule:
   - MouseGesture: Mouse Down
   - KeyPress:
-    - [Control_L, w]
+    - [function, Print]
     - click
 - Rule:
   - MouseGesture: Mouse Left
@@ -51,12 +51,12 @@
 ---
 - Test: [thumb_wheel_up, 20]
 - KeyPress:
-  - [Control_L, Page_Down]
+  - [Right]
   - click
 ...
 ---
 - Test: [thumb_wheel_down, 20]
 - KeyPress:
-  - [Control_L, Page_Up]
+  - [Left]
   - click
 ...
