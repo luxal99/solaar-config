@@ -32,6 +32,8 @@
   - KeyPress:
     - [Control_L, Alt_L, Right]
     - click
+  - Later: 1
+  - Execute: [xdotool, mousemove, '959', '540', click, '1']
 - Rule:
   - MouseGesture: Mouse Down
   - KeyPress:
@@ -42,9 +44,23 @@
   - KeyPress:
     - [Control_L, Alt_L, Left]
     - click
+  - Later: 1
+  - Execute: [xdotool, mousemove, '959', '540', click, '1']
 - Rule:
   - MouseGesture: Mouse Up-right
   - KeyPress:
     - [Super_L]
     - click
+...
+---
+- Test: [thumb_wheel_up, 5]
+- KeyPress:
+  - [Right]
+  - click
+...
+---
+- Test: [thumb_wheel_down, 5]
+- KeyPress:
+  - [Left]
+  - click
 ...
