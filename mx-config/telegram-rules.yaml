@@ -12,6 +12,10 @@
   - click
 ...
 ---
+- MouseGesture: Mouse Up-left
+- Set: [4A24B337, scroll-ratchet, 1]
+...
+---
 - Key: [Middle Button, pressed]
 - Execute: [xdotool, mousemove, '960', '540', click, '1']
 ...

@@ -12,6 +12,10 @@
   - click
 ...
 ---
+- MouseGesture: Mouse Up-left
+- Set: [4A24B337, scroll-ratchet, 1]
+...
+---
 - Key: [Middle Button, pressed]
 - Execute: [xdotool, mousemove, '960', '540', click, '1']
 ...
@@ -49,13 +53,13 @@
     - click
 ...
 ---
-- Test: [thumb_wheel_up, 20]
+- Test: [thumb_wheel_up, 10]
 - KeyPress:
   - [Control_L, Shift_L,l]
   - click
 ...
 ---
-- Test: [thumb_wheel_down, 20]
+- Test: [thumb_wheel_down, 10]
 - KeyPress:
   - [Control_L, Shift_L, k]
   - click

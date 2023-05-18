@@ -12,6 +12,10 @@
   - click
 ...
 ---
+- MouseGesture: Mouse Up-left
+- Set: [4A24B337, scroll-ratchet, 1]
+...
+---
 - Key: [Middle Button, pressed]
 - Execute: [xdotool, mousemove, '960', '540', click, '1']
 ...
@@ -25,7 +29,7 @@
 - Rule:
   - MouseGesture: Mouse Up
   - KeyPress:
-    - [Shift_L, F4]
+    - [Alt_L, F12]
     - click
 - Rule:
   - MouseGesture: Mouse Right
@@ -35,7 +39,7 @@
 - Rule:
   - MouseGesture: Mouse Down
   - KeyPress:
-    - [function, Print]
+    - [Control_L, F4]
     - click
 - Rule:
   - MouseGesture: Mouse Left
@@ -46,6 +50,11 @@
   - MouseGesture: Mouse Up-right
   - KeyPress:
     - [Super_L]
+    - click
+- Rule:
+  - MouseGesture: Mouse Up-left
+  - KeyPress:
+    - [Alt_L, 1]
     - click
 ...
 ---
